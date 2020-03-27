@@ -16,6 +16,8 @@ storiesOf('DatePicker', module)
         <DatePicker 
             placeholder="Date"
             value={null}
+            // mask="/d/d/d"    
+            masked
             onChange={action('changed')}
             style={{ margin: '1rem', width: '19.5rem' }}
         />
